@@ -7,18 +7,18 @@
 </head>
 <body>
 <h2>ユーザー登録フォーム</h2>
-  <form method="POST" action="register.php">
+  <form action="register.php" methoda="POST">
   <p>
     <label for="username">ユーザー名:</label>
     <input type="text" name="username">
   </p>
   <p>
-    <label for="eamil">メールアドレス:</label>
+    <label for="username">メールアドレス:</label>
     <input type="email" name="email">
   </p>
   <p>
     <label for="password">パスワード:</label>
-    <input type="password" name="password" placeholder= '6文字以上100文字以下'>
+    <input type="password" name="password" placeholder= '8文字以上100文字以下'>
   </p>
   <p>
     <label for="password_conf">パスワード確認:</label>
